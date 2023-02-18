@@ -1,0 +1,38 @@
+    {
+    "routePrefix": "places",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Places",
+      "columns": 3,
+        "fields": [{
+            "label": "Title",
+            "name": "title",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Description",
+            "name": "description",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Date",
+            "name": "date",
+            "value": null,
+            "meta": {
+                "custom": false,
+                "type": "datepicker",
+                "content": "date",
+                "time": true,
+                "format": "Y-m-d h:m:S",
+                "disabled": false
+            }
+}]
+    }]
+}

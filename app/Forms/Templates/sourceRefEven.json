@@ -1,0 +1,46 @@
+{
+    "routePrefix": "sourcerefevents",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Source Ref Events",
+      "columns": 3,
+        "fields": [{
+            "label": "Group",
+            "name": "group",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        },
+            {
+                "label": "Gid",
+                "name": "gid",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            },
+            {
+                "label": "Event",
+                "name": "even",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            },
+            {
+                "label": "Role",
+                "name": "role",
+                "value": null,
+                "meta": {
+                    "type": "input",
+                    "content": "text"
+                }
+            }
+        ]
+    }]
+}

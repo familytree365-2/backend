@@ -1,0 +1,73 @@
+{
+    "routePrefix": "sources",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Sources",
+      "columns": 3,
+        "fields": [{
+            "label": "Name",
+            "name": "name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Description",
+            "name": "description",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Date",
+            "name": "date",
+            "value": null,
+            "meta": {
+                "custom": false,
+                "type": "datepicker",
+                "content": "date",
+                "time": true,
+                "format": "Y-m-d h:m:S",
+                "disabled": false
+            }
+        }, {
+            "label": "Author",
+            "name": "author_id",
+            "value": null,
+            "meta": {
+                "type": "select",
+                "multiple": false,
+                "options": []
+            }
+        }, {
+            "label": "Publication",
+            "name": "publication_id",
+            "value": null,
+            "meta": {
+                "type": "select",
+                "multiple": false,
+                "options": []
+            }
+        }, {
+            "label": "Repository",
+            "name": "repository_id",
+            "value": null,
+            "meta": {
+                "type": "select",
+                "multiple": false,
+                "options": []
+            }
+        }, {
+            "label": "Active",
+            "name": "is_active",
+            "value": false,
+            "meta": {
+                "type": "input",
+                "content": "checkbox"
+            }
+        }]
+    }]
+}
